@@ -17,7 +17,11 @@ const userSchema = new mongoose.Schema({
     password:{
         type: String,
         required: true,
-    }
+    },
+    avatar:{
+        type: String,
+        default: "https://marketplace.canva.com/EAFdt9tY_fo/1/0/1600w/canva-blue-modern-business-man-facebook-profile-picture-Kq2gJmFD2wM.jpg"
+    },
 }, {timestamps:true}
 )
 
