@@ -10,6 +10,7 @@ import CreateListing from './pages/CreateListing';
 import Listing from './pages/Listing';
 import UpdateListing from './pages/UpdateListing';
 import Search from './pages/Search';
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -34,6 +35,7 @@ export default function App() {
           />
         </Route>
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
